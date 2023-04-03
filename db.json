@@ -1,9 +1,28 @@
 {
-	"chat": [
-		{
-      "id": 1,
-      "name": "John Doe",
-      "message": "Hello World!"
-    }
-	]
+	"chats": {
+		"123423453456": [
+			{
+				"message": "Hello",
+				"from": "id1"
+			},
+			{
+				"message": "hi",
+				"from": "id2"
+			},
+			{
+				"message": "Hola",
+				"from": "id3"
+			}
+		]
+	},
+
+	"users": {
+		"id1": {
+			"name": "John Doe",
+			"chats": [
+				123423453456
+			]
+		}
+	}
+    
 }
