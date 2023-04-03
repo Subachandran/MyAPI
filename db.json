@@ -1,0 +1,9 @@
+{
+	"chat": [
+		{
+      "id": 1,
+      "name": "John Doe",
+      "message": "Hello World!"
+    }
+	]
+}
